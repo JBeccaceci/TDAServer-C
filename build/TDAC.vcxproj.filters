@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Network">
+      <UniqueIdentifier>{d98d712a-f096-48e6-99b6-0b7bb0a73768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\User">
+      <UniqueIdentifier>{637f57e2-ebb9-428d-917d-dcc1c0ecbb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Protocol">
+      <UniqueIdentifier>{13891633-df8a-4b6d-aed8-ac6b209b1bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Timer">
+      <UniqueIdentifier>{83b00870-5382-47df-9550-319976662d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Network">
+      <UniqueIdentifier>{40eb44bc-9ff2-45e2-ac0f-06cf102adcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Timer">
+      <UniqueIdentifier>{0d1c39b3-924b-4283-b84d-957fdcf0650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Platform">
+      <UniqueIdentifier>{af59b5cf-8e44-42f4-9eb3-4215e97b28f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\User">
+      <UniqueIdentifier>{c031acaf-8586-4c19-87ee-c0f78b246dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Protocol">
+      <UniqueIdentifier>{d168ae21-6922-4dd2-b00a-383c9fffa142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Thread">
+      <UniqueIdentifier>{1bb461b5-6065-47db-840b-59c780f547dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Mutex">
+      <UniqueIdentifier>{80c6a289-626d-41ff-8eb4-8718d27958da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Mutex">
+      <UniqueIdentifier>{ffd72f91-7f3e-45a7-958a-155ab3c449a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\MySQL">
+      <UniqueIdentifier>{777d12f1-0aa6-4d52-a9f6-399eb49b69c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MySQL">
+      <UniqueIdentifier>{d705b6a1-4345-4a65-8b37-ab72be9e5bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Map">
+      <UniqueIdentifier>{488118e7-939e-48f3-bec8-ee7f4bb63b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Map">
+      <UniqueIdentifier>{d0a05249-6152-4448-bc72-60efbf663ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Logs">
+      <UniqueIdentifier>{14411c58-feec-4cf3-9374-11e598f66742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Logs">
+      <UniqueIdentifier>{dd7bc10d-94a4-4b97-ab80-6c832197716c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Thread">
+      <UniqueIdentifier>{94bd362f-5815-4167-b76a-9c3b00d8f2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\NPCs">
+      <UniqueIdentifier>{47296908-5bfe-4b0b-8a2f-9536ba3404f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\NPCs">
+      <UniqueIdentifier>{9402704e-5f7d-4a44-9bed-75f06890c628}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Network\Socket.c">
+      <Filter>Archivos de código fuente\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Protocol\ByteBuffer.c">
+      <Filter>Archivos de código fuente\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer\SystemTime.c">
+      <Filter>Archivos de código fuente\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer\TimeManager.c">
+      <Filter>Archivos de código fuente\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\ListUser.c">
+      <Filter>Archivos de código fuente\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Thread\Windows\Thread.c">
+      <Filter>Archivos de código fuente\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mutex\Mutex.c">
+      <Filter>Archivos de código fuente\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MySQL\Connector.c">
+      <Filter>Archivos de código fuente\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MySQL\Default.c">
+      <Filter>Archivos de código fuente\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MySQL\MySQL.c">
+      <Filter>Archivos de código fuente\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Map\Map.c">
+      <Filter>Archivos de código fuente\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Logs\Log.c">
+      <Filter>Archivos de código fuente\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Protocol\BinaryServer.c">
+      <Filter>Archivos de código fuente\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NPCs\Npc.c">
+      <Filter>Archivos de código fuente\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\CharacterLoad.c">
+      <Filter>Archivos de código fuente\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\General.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Network\Socket.h">
+      <Filter>Archivos de encabezado\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Network\SocketDefine.h">
+      <Filter>Archivos de encabezado\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Timer\SystemTime.h">
+      <Filter>Archivos de encabezado\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Timer\TimeManager.h">
+      <Filter>Archivos de encabezado\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\ListUser.h">
+      <Filter>Archivos de encabezado\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Protocol\ByteBuffer.h">
+      <Filter>Archivos de encabezado\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Platform\Platform.h">
+      <Filter>Archivos de encabezado\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Platform\PlatformDef.h">
+      <Filter>Archivos de encabezado\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Thread\Thread.h">
+      <Filter>Archivos de encabezado\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\General.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Mutex\Mutex.h">
+      <Filter>Archivos de encabezado\Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MySQL\Connector.h">
+      <Filter>Archivos de encabezado\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MySQL\Default.h">
+      <Filter>Archivos de encabezado\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MySQL\MySQL.h">
+      <Filter>Archivos de encabezado\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Map\Map.h">
+      <Filter>Archivos de encabezado\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Logs\Log.h">
+      <Filter>Archivos de encabezado\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Protocol\BinaryServer.h">
+      <Filter>Archivos de encabezado\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NPCs\Npc.h">
+      <Filter>Archivos de encabezado\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\CharacterLoad.h">
+      <Filter>Archivos de encabezado\User</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

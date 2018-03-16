@@ -1,0 +1,49 @@
+/**
+*	 _____ ___   _     ___
+*	|_   _|   \ /_\   / __| ___ _ ___ _____ _ _
+*	  | | | |) / _ \  \__ \/ -_) '_\ V / -_) '_|
+*	  |_| |___/_/ \_\ |___/\___|_|  \_/\___|_|
+*		 Tierras de Argentum Server v1.0
+*			 Juan Beccaceci <Wildem>
+**/
+#include "Mutex.h"
+
+////////////////////////////////////////////////////////////
+// Initialize critical section
+////////////////////////////////////////////////////////////
+void MutexInitialize(Mutex * tmpMutex)
+{
+
+	InitializeCriticalSection(tmpMutex);
+
+}
+
+////////////////////////////////////////////////////////////
+// Destroy critical section
+////////////////////////////////////////////////////////////
+void MutexDestroy(Mutex * tmpMutex)
+{
+
+	DeleteCriticalSection(tmpMutex);
+
+}
+
+////////////////////////////////////////////////////////////
+// Enter in critial section
+////////////////////////////////////////////////////////////
+void Mutex_Lock(Mutex * tmpMutex)
+{
+
+	EnterCriticalSection(tmpMutex);
+
+}
+
+////////////////////////////////////////////////////////////
+// Release the critial section
+////////////////////////////////////////////////////////////
+void Mutex_Unlock(Mutex * tmpMutex)
+{
+
+	LeaveCriticalSection(tmpMutex);
+
+}
